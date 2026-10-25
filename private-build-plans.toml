@@ -1,0 +1,170 @@
+[buildPlans.IosefkaNo_1]
+family = "Iosefka No.1"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+export-glyph-names = false
+noLigation = true
+
+[buildPlans.IosefkaNo_1.variants]
+inherits = "ss07"
+
+[buildPlans.IosefkaNo_1.variants.design]
+five = "upright-flat-serifless"
+eight = "crossing-asymmetric"
+zero = "oval-tall-slashed"
+capital-g = "flat-bottom-serifless-hooked"
+capital-j = "flat-hook-serifed"
+capital-k = "straight-serifless"
+capital-w = "straight-almost-flat-top-serifless"
+a = "double-storey-serifless"
+b = "flat-bottom-serifless"
+f = "flat-hook-serifless"
+g = "single-storey-flat-top-serifless"
+i = "serifed"
+j = "flat-hook-serifed"
+k = "straight-serifless"
+l = "serifed-flat-tailed"
+q = "flat-top-straight-serifless"
+t = "flat-hook-short-neck"
+w = "straight-almost-flat-top-serifless"
+punctuation-dot = "square"
+braille-dot = "square"
+caret = "low"
+asterisk = "hex-low"
+brace = "curly-flat-boundary"
+
+[buildPlans.IosefkaNo_1.metricOverride]
+leading = 1110
+xHeight = 550
+
+[buildPlans.IosefkaNo_1.widths.Normal]
+shape = 550
+menu  = 5
+css   = "normal"
+
+[buildPlans.IosefkaNo_1.weights.Regular]
+shape = 425
+menu = 400
+css = 400
+
+# [buildPlans.IosefkaNo_1.weights.SemiBold]
+# shape = 600
+# menu = 600
+# css = 600
+
+[buildPlans.IosefkaNo_1.weights.Bold]
+shape = 800
+menu = 700
+css = 700
+
+# [buildPlans.IosefkaNo_1.weights.Heavy]
+# shape = 900
+# menu = 900
+# css = 900
+
+[buildPlans.IosefkaNo_1.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosefkaNo_1.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+################################################################################
+
+[buildPlans.IosefkaNo_2]
+family = "Iosefka No.2"
+spacing = "fixed"
+serifs = "slab"
+noCvSs = true
+export-glyph-names = false
+noLigation = true
+
+[buildPlans.IosefkaNo_2.variants]
+inherits = "ss07"
+
+[buildPlans.IosefkaNo_2.variants.design]
+zero = "oval-tall-slashed"
+capital-c = "unilateral-inward-serifed"
+capital-d = "more-rounded-bilateral-serifed"
+capital-e = "serifed-capped"
+capital-f = "serifed-capped"
+capital-g = "toothless-corner-inward-serifed-hooked"
+capital-i = "serifed"
+capital-j = "serifed-both-sides"
+capital-k = "straight-serifed"
+capital-q = "curly-tailed"
+capital-s = "bilateral-inward-serifed"
+capital-w = "straight-serifed"
+a = "double-storey-hook-inward-serifed-serifed"
+b = "flat-bottom-motion-serifed"
+c = "unilateral-inward-serifed"
+g = "single-storey-flat-top-serifed"
+h = "tailed-serifed"
+i = "serifed"
+k = "straight-full-serifed"
+l = "serifed-semi-tailed"
+m = "tailed-top-left-serifed"
+n = "tailed-serifed"
+q = "flat-top-straight-bottom-serifed"
+r = "corner-hooked-serifed"
+s = "bilateral-inward-serifed"
+t = "bent-hook-short-neck"
+u = "toothed-serifed"
+w = "straight-serifed"
+punctuation-dot = "square"
+braille-dot = "square"
+asterisk = "hex-low"
+caret = "low"
+brace = "curly-flat-boundary"
+
+[buildPlans.IosefkaNo_2.metricOverride]
+leading = 1110
+xHeight = 550
+
+[buildPlans.IosefkaNo_2.widths.Normal]
+shape = 550
+menu  = 5
+css   = "normal"
+
+[buildPlans.IosefkaNo_2.weights.Regular]
+shape = 425
+menu = 400
+css = 400
+
+# [buildPlans.IosefkaNo_2.weights.SemiBold]
+# shape = 600
+# menu = 600
+# css = 600
+
+[buildPlans.IosefkaNo_2.weights.Bold]
+shape = 800
+menu = 700
+css = 700
+
+# [buildPlans.IosefkaNo_2.weights.Heavy]
+# shape = 900
+# menu = 900
+# css = 900
+
+[buildPlans.IosefkaNo_2.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosefkaNo_2.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+################################################################################
+
+[collectPlans.Iosefka]
+from = ["IosefkaNo_1", "IosefkaNo_2"]
